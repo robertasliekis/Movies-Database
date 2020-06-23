@@ -884,7 +884,7 @@ body {
     margin-bottom: 0.4rem;
   }
   .sidebar .header-genres {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .sidebar .movie-genres-list {
     -ms-flex-wrap: wrap;
@@ -897,6 +897,7 @@ body {
   .sidebar .movie-genres-list div {
     margin-bottom: 0.4rem;
     margin-right: 1rem;
+    font-size: 1.4rem;
   }
   .text-input {
     width: 4rem;
