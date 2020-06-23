@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Online movies search." />
+    <title>Movies Search</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
+  </head>
+  <body class="body-padding categories-page" id="categories-page">
+    <div class="website-wrapper">
+      <div class="navbar">
+        <div class="burger-menu">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+        <div class="logo">
+          <i class="fas fa-film icon"></i>
+          <div class="logo-text">
+            MOVIES <br />
+            DATABASE
+          </div>
+        </div>
+        <div class="text-input">
+          <input type="text" placeholder="SEARCH FOR A MOVIE" id="input-field" class="input-field" />
+          <label for="input-field" class="button button-submit button-submit-search"> <i class="fas fa-search icon"></i></label>
+          <div class="button button-submit button-submit-overlay"></div>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <h1 class="header header-category">BROWSE BY CATEGORY</h1>
+        <div class="link-trending">TRENDING MOVIES</div>
+        <div class="link-upcoming">UPCOMING MOVIES</div>
+        <h1 class="header header-genres">GENRES</h1>
+        <div class="movie-genres-list">
+          <div class="link-genre">ACTION</div>
+          <div class="link-genre">ADVENTURE</div>
+          <div class="link-genre">ANIMATION</div>
+          <div class="link-genre">COMEDY</div>
+          <div class="link-genre">CRIME</div>
+          <div class="link-genre">DOCUMENTARY</div>
+          <div class="link-genre">DRAMA</div>
+          <div class="link-genre">FAMILY</div>
+          <div class="link-genre">FANTASY</div>
+          <div class="link-genre">HISTORY</div>
+          <div class="link-genre">HORROR</div>
+          <div class="link-genre">MUSIC</div>
+          <div class="link-genre">MYSTERY</div>
+          <div class="link-genre">ROMANCE</div>
+          <div class="link-genre">SCIENCE FICTION</div>
+          <div class="link-genre">TV MOVIE</div>
+          <div class="link-genre">THRILLER</div>
+          <div class="link-genre">WAR</div>
+          <div class="link-genre">WESTERN</div>
+        </div>
+      </div>
+
+      <div class="movies-categories-wrapper"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
