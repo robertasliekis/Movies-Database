@@ -730,7 +730,6 @@ body {
 
 .movie-container-selected .movie-info .white-text {
   color: var(--global-color);
-  margin-right: 0.5rem;
 }
 
 .movie-container-selected .movie-info .movie-genre-list {
@@ -751,7 +750,7 @@ body {
 }
 
 .movie-container-selected .movie-info .movie-genre-list .movie-genre {
-  margin-right: 0.5rem;
+  margin-left: 0.5rem;
   white-space: nowrap;
 }
 
@@ -778,9 +777,6 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-  .body-padding {
-    padding-right: 0px;
-  }
   .website-wrapper {
     padding: 1rem;
     padding-top: 8rem;

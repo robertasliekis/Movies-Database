@@ -452,14 +452,13 @@ body {
     }
     .white-text {
       color: var(--global-color);
-      margin-right: 0.5rem;
     }
     .movie-genre-list {
       @include flexCenter();
       justify-content: flex-start;
       flex-wrap: wrap;
       .movie-genre {
-        margin-right: 0.5rem;
+        margin-left: 0.5rem;
         white-space: nowrap;
       }
       div {
@@ -485,10 +484,6 @@ body {
   }
 }
 @media only screen and (max-width: 1024px) {
-  .body-padding {
-    padding-right: 0px;
-  }
-
   .website-wrapper {
     padding: 1rem;
     padding-top: 8rem;
