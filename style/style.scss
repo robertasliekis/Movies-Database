@@ -58,7 +58,7 @@ body {
 }
 
 body {
-  background: grey;
+  background: linear-gradient(90deg, rgba(50, 79, 108, 1) 0%, rgba(48, 48, 48, 1) 50%, rgba(50, 79, 108, 1) 100%);
 }
 
 @mixin flexCenter {
@@ -212,6 +212,7 @@ body {
   border-left: none;
   border-right: none;
   padding: 2rem;
+  overflow: hidden;
   div {
     color: var(--global-color);
     font-size: 1.5rem;
@@ -312,6 +313,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.5rem;
   border-bottom: 3px solid var(--global-color);
+  text-align: center;
 }
 
 .movies-categories-wrapper {
@@ -604,6 +606,9 @@ body {
     .link-trending {
       margin-bottom: 0.4rem;
     }
+    .header {
+      font-size: 1.5rem;
+    }
     .header-genres {
       margin-top: 1rem;
     }
@@ -613,8 +618,8 @@ body {
       height: 65%;
       div {
         margin-bottom: 0.4rem;
-        margin-right: 1rem;
-        font-size: 1.4rem;
+        margin-right: 0.8rem;
+        font-size: 1.2rem;
       }
     }
   }
@@ -694,10 +699,15 @@ body {
 @media only screen and (max-width: 375px) {
   .sidebar {
     div {
-      font-size: 1.3rem;
+      font-size: 1.1rem;
     }
     .header-genres {
       margin-top: 1rem;
+    }
+    .movie-genres-list {
+      div {
+        font-size: 1.1rem;
+      }
     }
   }
 
@@ -733,9 +743,6 @@ body {
     h1 {
       font-size: 1.5rem;
       margin-bottom: 0.5rem;
-    }
-    div {
-      font-size: 1.1rem;
     }
     .movie-genres-list {
       div {

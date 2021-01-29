@@ -133,7 +133,9 @@ let movieClicked = () => {
         }
 
         if (data.vote_average != null) {
-          $(".movie-info").append(`<div class="movie-rating movie-rating-selected"><span class="white-text">Rating:</span>${data.vote_average}</div>`);
+          $(".movie-info").append(
+            `<div class="movie-rating movie-rating-selected"><span class="white-text">Rating:</span>${data.vote_average}</div>`
+          );
         }
 
         if (data.genres.length > 0) {
@@ -154,7 +156,9 @@ let movieClicked = () => {
         }
 
         if (data.release_date) {
-          $(".movie-info").append(`<div class="movie-release movie-release-selected"><span class="white-text">Release date: </span>${data.release_date}</div>`);
+          $(".movie-info").append(
+            `<div class="movie-release movie-release-selected"><span class="white-text">Release date: </span>${data.release_date}</div>`
+          );
         }
 
         if (data.poster_path != null) {
@@ -175,7 +179,9 @@ let movieClicked = () => {
 };
 
 let movieImageDisplay = (data, arrayIndex, categoryTitle) => {
-  $(`.movie-${categoryTitle}${arrayIndex}`).append(`<div class="movie-poster-container"><div class="movie-poster movie-poster-${categoryTitle}${arrayIndex}"></div></div>`);
+  $(`.movie-${categoryTitle}${arrayIndex}`).append(
+    `<div class="movie-poster-container"><div class="movie-poster movie-poster-${categoryTitle}${arrayIndex}"></div></div>`
+  );
   let poster = data.results[arrayIndex].poster_path;
   if (poster != null) {
     let moviePoster = new Image();
