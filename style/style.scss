@@ -455,6 +455,11 @@ body {
     .white-text {
       color: var(--global-color);
     }
+    .movie-rating {
+      .white-text {
+        margin-right: 5px;
+      }
+    }
     .movie-genre-list {
       @include flexCenter();
       justify-content: flex-start;

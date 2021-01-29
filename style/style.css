@@ -735,6 +735,10 @@ body {
   color: var(--global-color);
 }
 
+.movie-container-selected .movie-info .movie-rating .white-text {
+  margin-right: 5px;
+}
+
 .movie-container-selected .movie-info .movie-genre-list {
   display: -webkit-box;
   display: -ms-flexbox;
