@@ -144,7 +144,6 @@ let movieClicked = () => {
             for (a = 0; a < genresObject.genres.length; a++) {
               if (data.genres[i].id == genresObject.genres[a].id) {
                 $(".movie-genre-list").append(`<div class="movie-genre movie-genre-selected">${genresObject.genres[a].name}</div>`);
-
                 if (i != data.genres.length - 1) {
                   $(".movie-genre-list").append(`,`);
                 } else {
